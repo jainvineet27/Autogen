@@ -1,0 +1,17 @@
+[project]
+name = "autogen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-agentchat[gemini]~=0.2",
+    "autogen-ext[ollama,openai]>=0.7.5",
+    "dotenv>=0.9.9",
+    "ipykernel>=7.2.0",
+    "langchain-huggingface>=1.2.2",
+    "litellm>=1.87.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "pyautogen[ollama]>=0.10.0",
+]

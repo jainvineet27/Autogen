@@ -1,0 +1,12 @@
+pandas
+numpy
+dotenv
+autogen-agentchat
+autogen-ext[openai]
+ipykernel
+langchain_huggingface
+autogen-ext[ollama]
+autogen-agentchat[gemini]~=0.2
+litellm
+litellm[proxy]
+autogenstudio
