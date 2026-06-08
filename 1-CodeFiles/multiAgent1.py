@@ -44,6 +44,8 @@ async def  main():
         print("calling task")        
     
         output  = await Console(agent1.run_stream(task="You are helpful user explain bollywood dance")    )
+
+        print(len(output.messages))
         for item in output.messages:
             print(f"{item.source}: {item.content[:50]}")
         

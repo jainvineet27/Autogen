@@ -1,0 +1,19 @@
+{
+   "type": "AssistantAgentState",
+   "version": "1.0.0",
+   "llm_context": {
+      "messages": [
+         {
+            "content": "my favorit color is blue ...",
+            "source": "user",
+            "type": "UserMessage"
+         },
+         {
+            "content": "That's a great choice! Blue is often associated with calmness, trust, and the vastness of the sky and the ocean.\n\nIs there a specific shade of blue you like best, such as navy, sky blue, or teal? Or is there anything else you'd like to chat about today?",
+            "thought": null,
+            "source": "helper",
+            "type": "AssistantMessage"
+         }
+      ]
+   }
+}
