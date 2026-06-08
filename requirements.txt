@@ -10,3 +10,4 @@ autogen-agentchat[gemini]~=0.2
 litellm
 litellm[proxy]
 autogenstudio
+ipykernel
