@@ -243,7 +243,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "autogen-agentchat", extras = ["gemini"], specifier = "~=0.2" },
+    { name = "autogen-agentchat", extras = ["gemini", "lmm", "retrievechat"], specifier = "~=0.2" },
     { name = "autogen-ext", extras = ["ollama", "openai"], specifier = ">=0.7.5" },
     { name = "autogenstudio", specifier = ">=0.0.49" },
     { name = "dotenv", specifier = ">=0.9.9" },

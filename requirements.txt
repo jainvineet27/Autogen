@@ -7,6 +7,7 @@ ipykernel
 langchain_huggingface
 autogen-ext[ollama]
 autogen-agentchat[gemini]~=0.2
+autogen-agentchat[gemini,retrievechat,lmm]~=0.2
 litellm
 litellm[proxy]
 autogenstudio
