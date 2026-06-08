@@ -31,7 +31,6 @@ async def givemebrain() -> OpenAIChatCompletionClient| None:
 
 
 
-
 async def  main():
     try:
         print('Inside main')
@@ -54,5 +53,5 @@ async def  main():
     except Exception as e:
         print(f"error occured >>>>>>>>>>> {e}")
 
-
-asyncio.run(main())
+if __name__=="__main__":
+    asyncio.run(main())
