@@ -9,7 +9,7 @@
             "type": "UserMessage"
          },
          {
-            "content": "That's a great choice! Blue is often associated with calmness, trust, and the vastness of the sky and the ocean.\n\nIs there a specific shade of blue you like best, such as navy, sky blue, or teal? Or is there anything else you'd like to chat about today?",
+            "content": "That's a great choice! Blue is often associated with calmness, trust, and the vastness of the sky and the ocean. It's consistently one of the most popular favorite colors around the world.\n\nDo you have a specific shade of blue that you prefer, like sky blue, navy, or perhaps turquoise?",
             "thought": null,
             "source": "helper",
             "type": "AssistantMessage"

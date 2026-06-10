@@ -9,12 +9,13 @@ from autogen_agentchat.ui import Console
 from autogen_agentchat.teams import RoundRobinGroupChat
 
 from autogen_agentchat.conditions import MaxMessageTermination
-from utils import givemebrain, close_model
+from utils import givemebrain, close_model  , givemeazurebrain
 
 
 
 async def main():
     print('Inside the main method')
+    #model_client = await givemebrain()
     model_client = await givemebrain()
     print(model_client)
     print(model_client.component_version)

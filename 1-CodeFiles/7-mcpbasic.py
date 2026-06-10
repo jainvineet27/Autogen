@@ -9,7 +9,7 @@ from autogen_ext.tools.mcp import McpServerParams , McpWorkbench ,StdioServerPar
 from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.ui import Console
 import asyncio
-from utils import close_model , givemebrain 
+from utils import close_model , givemebrain, givemeollamabrain 
 
 load_dotenv()
 
@@ -57,11 +57,11 @@ async def main():
 
                 await Console(team.run_stream(task="Help to  solve the math problem and store the results locally in provided mentioned path."))
 
-            await close_model()
+            await close_model(model_client)
             await assistant.close()
     except Exception as e :
         print(f"Error >>>>>>>>>>>>>>>>.. {e}")        
 
 if __name__=="__main__":
-    print("callign main")
+    print("calling main")
     asyncio.run(main())

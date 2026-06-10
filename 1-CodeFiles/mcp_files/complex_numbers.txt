@@ -1,0 +1,21 @@
+Complex Numbers Explained:
+
+1. Definition: A complex number is a number that can be expressed in the form a + bi, where 'a' and 'b' are real numbers, and 'i' is the imaginary unit.
+
+2. The Imaginary Unit (i): Defined as the square root of -1 (i = √-1). Therefore, i² = -1.
+
+3. Components:
+   - 'a' is called the real part.
+   - 'bi' is called the imaginary part.
+
+4. Visualization: Complex numbers can be represented on the Complex Plane (Argand Diagram), where the x-axis represents real numbers and the y-axis represents imaginary numbers.
+
+5. Operations:
+   - Addition/Subtraction: Add/subtract the real parts together and the imaginary parts together.
+     (a + bi) + (c + di) = (a + c) + (b + d)i
+   - Multiplication: Use the distributive property (FOIL), remembering that i² = -1.
+     (a + bi)(c + di) = ac + adi + bci + bdi²
+                     = (ac - bd) + (ad + bc)i
+
+Example:
+(3 + 2i) + (1 - 4i) = (3 + 1) + (2 - 4)i = 4 - 2i

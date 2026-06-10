@@ -8,11 +8,13 @@ from autogen_agentchat.ui import Console
 from autogen_agentchat.teams import RoundRobinGroupChat
 
 from autogen_agentchat.conditions import MaxMessageTermination
+from utils import givemeollamabrain, close_model
 
 
 
 async def main():
     print('Inside the main method')
+    #model_client = await givemebrain()
     model_client = await givemebrain()
     print(model_client)
     print(model_client.component_version)
@@ -25,7 +27,7 @@ async def main():
 
     await Console(team.run_stream(task="Alright let us begin the conversation ..."))
 
-
+    await model_client.close()
 
 
 if __name__ =='__main__':
