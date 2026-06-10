@@ -5,10 +5,15 @@ autogen-agentchat
 autogen-ext[openai]
 ipykernel
 langchain_huggingface
-autogen-ext[ollama]
 autogen-agentchat[gemini]~=0.2
 autogen-agentchat[gemini,retrievechat,lmm]~=0.2
 litellm
 litellm[proxy]
 autogenstudio
 ipykernel
+playwright
+npx
+node
+autogen-ext[ollama]
+autogen-ext[azure]
+azure-ai-inference
