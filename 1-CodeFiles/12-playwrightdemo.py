@@ -6,6 +6,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from autogen_agentchat.ui import Console
 from utils import givemebrain
 from autogen_ext.tools import mcp
+from autogen_agentchat.conditions import MaxMessageTermination ,TextMentionTermination
 from autogen_ext.tools.mcp import StdioServerParams , McpWorkbench
 
 
@@ -28,6 +29,8 @@ async def main():
         print(playwright_server.args)
 
         playwright_server_wb = McpWorkbench(playwright_server)
+        
+        
         async with playwright_server_wb as wb:
             assistant = AssistantAgent(model_client=model_client , name="playwright", workbench=wb,system_message="You are a helpful Agent..")
 

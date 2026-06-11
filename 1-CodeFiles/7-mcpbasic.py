@@ -55,7 +55,7 @@ async def main():
                 
                 team = RoundRobinGroupChat(participants=[user , assistant],termination_condition=TextMentionTermination('LESSON COMPLETE'))
 
-                await Console(team.run_stream(task="Help to  solve the math problem and store the results locally in provided mentioned path."))
+                await Console(team.run_stream(task="Help to find all the international school in Netherlands who are hiring for sciences and biology job position  and store the results in the form of table  name link school  partime , full time , internships"))
 
             await close_model(model_client)
             await assistant.close()
